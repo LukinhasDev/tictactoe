@@ -1,0 +1,91 @@
+/*!*********************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/css/style.css ***!
+  \*********************************************************************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html {
+    height: 100%;
+}
+
+
+/*======*/
+
+#board {
+    width: 90%;
+    height: 100%;
+
+    margin: 0px auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: red;
+}
+
+.containerBtn {
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerBtn > button {
+    width: calc(100% / 3);
+    height: 100%;
+
+    border: 1px solid black;
+    outline: 0;
+
+    font-size: 30px;
+}
+
+
+
+
+.containerBtn:nth-child(1) > button:nth-child(1) {
+    border-top: 0;
+    border-left: 0;
+}
+
+.containerBtn:nth-child(1) > button:nth-child(2) {
+    border-top: 0;
+}
+
+
+.containerBtn:nth-child(1) > button:nth-child(3) {
+    border-top: 0;
+    border-right: 0;
+}
+
+.containerBtn:nth-child(2) > button:nth-child(1) {
+    border-left: 0;
+}
+
+.containerBtn:nth-child(2) > button:nth-child(3) {
+    border-right: 0;
+}
+
+.containerBtn:nth-child(3) > button:nth-child(1) {
+    border-bottom: 0;
+    border-left: 0;
+
+}
+
+.containerBtn:nth-child(3) > button:nth-child(3) {
+    border-bottom: 0;
+    border-right: 0;
+
+}
+
+.containerBtn:nth-child(3) > button:nth-child(2) {
+    border-bottom: 0;
+}

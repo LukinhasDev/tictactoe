@@ -1,0 +1,31 @@
+{
+  "name": "tictactoe",
+  "version": "1.0.0",
+  "description": "jogo da velha ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack serve --config webpack.dev.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LukinhasDev/tictactoe.git"
+  },
+  "author": "Lucas Cozzer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LukinhasDev/tictactoe/issues"
+  },
+  "homepage": "https://github.com/LukinhasDev/tictactoe#readme",
+  "dependencies": {
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2"
+  },
+  "devDependencies": {
+    "css-loader": "^6.6.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.5.3",
+    "style-loader": "^3.3.1",
+    "webpack-dev-server": "^4.7.4"
+  }
+}
